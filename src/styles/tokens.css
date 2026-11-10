@@ -1,0 +1,23 @@
+/*
+ * Design tokens — single source of truth for colour and motion.
+ * Colours are space-separated RGB channels so Tailwind can apply alpha
+ * (e.g. bg-obsidian/80).
+ */
+:root {
+  /* Palette */
+  --c-obsidian: 7 9 8; /* #070908  near-black with a green cast */
+  --c-forest: 10 31 23; /* #0a1f17  deep forest green */
+  --c-emerald: 16 140 94; /* #108c5e  emerald */
+  --c-champagne: 200 177 124; /* #c8b17c  muted champagne gold */
+  --c-ivory: 242 236 221; /* #f2ecdd  warm ivory */
+
+  /* Motion principles: slow starts, long soft landings. */
+  --ease-luxe: cubic-bezier(0.22, 1, 0.36, 1);
+  --dur-fast: 300ms;
+  --dur-base: 600ms;
+  --dur-slow: 1200ms;
+
+  /* Layout */
+  --gutter: clamp(1.25rem, 4vw, 4rem);
+  --grid-gap: clamp(1rem, 2vw, 2rem);
+}

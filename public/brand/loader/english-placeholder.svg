@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  TEMPORARY PLACEHOLDER v2 - NOT THE APPROVED FASS ENGLISH WORDMARK.
+  Hand-constructed single-line strokes for "Fass": a large sweeping capital F with a
+  long opening flourish, then small connected lowercase a-s-s that exit in a rising
+  tail. Same contract as arabic-placeholder.svg (viewBox required; <path> per stroke,
+  drawn in document order; optional data-stroke-width).
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 320" data-placeholder="true">
+  <title>Temporary placeholder - English Fass</title>
+  <!-- 1. opening flourish: enters from the left, rises over the top and out to the right -->
+  <path id="F-flourish" data-stroke-width="2.4" d="M30 168C70 106 190 44 330 28C440 16 560 22 640 52C676 66 668 86 630 84"/>
+  <!-- 2. stem: long diagonal from the crown down to the baseline -->
+  <path id="F-stem" data-stroke-width="3.4" d="M346 30C316 96 262 190 196 276C190 284 184 286 180 282"/>
+  <!-- 3. crossbar: thin sweep through the stem, flowing straight into the a -->
+  <path id="F-bar" data-stroke-width="1.8" d="M118 172C220 150 340 142 440 156C470 160 490 168 498 178"/>
+  <!-- 4. lowercase a: bowl, then stem with a joining exit -->
+  <path id="a-bowl" data-stroke-width="2.6" d="M498 178C478 204 494 248 526 244C548 242 558 220 560 196C556 168 520 150 498 178"/>
+  <path id="a-stem" data-stroke-width="2.6" d="M560 196C560 230 566 250 590 250C604 250 614 242 622 232"/>
+  <!-- 5. first s -->
+  <path id="s1" data-stroke-width="2.6" d="M622 236C640 190 684 172 692 192C698 210 656 222 650 238C646 256 690 262 722 224"/>
+  <!-- 6. second s, then the long exit flourish -->
+  <path id="s2" data-stroke-width="2.6" d="M722 224C740 186 784 170 790 192C796 210 756 222 750 238C746 256 790 262 820 226"/>
+  <path id="exit-flourish" data-stroke-width="2.2" d="M820 226C846 196 870 160 892 120"/>
+</svg>

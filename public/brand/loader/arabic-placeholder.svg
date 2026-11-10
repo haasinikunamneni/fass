@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  TEMPORARY PLACEHOLDER v2 - NOT THE APPROVED FASS ARABIC LOGO.
+  Hand-constructed single-line (centreline) strokes for the word فص, built from the
+  correct letterforms: initial FA (ف: closed loop + one dot above) joined to final SAD (ـص: closed
+  loop + sweeping tail, no dots). Written right to left, as Arabic is.
+  Replace this file with the approved artwork; the loader needs no other change.
+  Contract: viewBox required; each <path> is one stroke drawn in document order;
+  optional data-stroke-width per path.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" data-placeholder="true">
+  <title>Temporary placeholder - Arabic فص</title>
+  <!-- 1. FA loop (written first, far right) -->
+  <path id="fa-loop" data-stroke-width="3.2" d="M522 150C524 122 486 108 466 128C448 146 458 178 488 182C506 184 520 172 522 150"/>
+  <!-- 2. joining stroke: leaves the loop, runs left along the baseline into SAD -->
+  <path id="fa-join" data-stroke-width="2.8" d="M488 182C468 196 436 200 404 192C386 188 372 182 360 174"/>
+  <!-- 3. SAD loop (closed bowl) -->
+  <path id="sad-loop" data-stroke-width="3.2" d="M360 174C336 176 312 160 316 134C320 108 356 100 374 120C392 140 380 168 352 172"/>
+  <!-- 4. SAD tail: long swooping bowl under the baseline, flicking up at the end -->
+  <path id="sad-tail" data-stroke-width="2.6" d="M376 160C384 214 292 250 202 232C150 222 104 194 62 142"/>
+  <!-- 5. FA dot (the diacritic is a dot, drawn as a small lozenge) -->
+  <path id="fa-dot" data-stroke-width="2.4" d="M494 78L505 90L494 102L483 90Z"/>
+</svg>

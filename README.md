@@ -1,5 +1,4 @@
-# MAISON [BRAND NAME] — Milestones 1 & 2
-
+fass
 An immersive gemstone jewellery house website.
 
 - **Milestone 1:** global design system, navigation, cinematic emerald hero.
